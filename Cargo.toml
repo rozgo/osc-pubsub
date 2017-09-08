@@ -1,0 +1,16 @@
+[package]
+name = "osc-pubsub"
+version = "0.1.0"
+authors = ["rozgo <alex.rozgo@gmail.com>"]
+
+[dependencies]
+tokio-core = "0.1"
+futures = "0.1"
+
+[lib]
+name = "oscpubsub"
+path = "src/lib.rs"
+
+[[bin]]
+name = "oscpubsub"
+path = "src/bin.rs"
