@@ -6,6 +6,8 @@ authors = ["rozgo <alex.rozgo@gmail.com>"]
 [dependencies]
 tokio-core = "0.1"
 futures = "0.1"
+rosc = "~0.1"
+clap = "2.24"
 
 [lib]
 name = "oscpubsub"
